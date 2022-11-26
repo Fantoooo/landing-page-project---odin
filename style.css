@@ -1,16 +1,22 @@
 /*help style*/
 
-*{
-    border: purple solid 1px;
-}
+
 
 /*pour tous*/
 *{
     margin: 0;
     padding: 0;
 }
-
+a{
+    color: white;
+    font-weight: 400;
+}
 /* header part*/
+
+header {
+    background-color: #1F2937;
+    color: white;
+}
 
 /*nav bar*/
 header nav{
@@ -18,6 +24,7 @@ header nav{
     color: white;
 }
 nav{
+    padding: 5px;
     display: flex;
     justify-content: space-between;
     
@@ -52,4 +59,43 @@ nav .Tlogo{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 900;
     font-size: 30px;
+}
+/*partie en dessous de nav, */
+.second{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.second .listen{
+    display: flex;
+    width: 600px;
+}
+.second .right{
+    width: 60%;
+    text-align: right;
+    margin: 10px;
+
+}
+.second .img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.second .right .title{
+    font-family: "Arial";
+    font-weight: 600;
+    font-size: 40px;
+}
+.second .right .text{
+    font-family: arial;
+}
+.second .button{
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 10px;
+    border: #3882F6;
+    color: white;
+    font-weight: 900;
+    margin: 10px;
 }
