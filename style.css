@@ -7,10 +7,7 @@
     margin: 0;
     padding: 0;
 }
-a{
-    color: white;
-    font-weight: 400;
-}
+
 /* header part*/
 
 header {
@@ -98,4 +95,22 @@ nav .Tlogo{
     color: white;
     font-weight: 900;
     margin: 10px;
+}
+.second a{
+    color: white;
+    font-weight: 400;
+}
+
+/*footer */
+
+footer a{
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    font-weight: 600;
+    font-family: Arial;
+    color: white;
 }
