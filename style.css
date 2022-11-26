@@ -1,1 +1,55 @@
+/*help style*/
 
+*{
+    border: purple solid 1px;
+}
+
+/*pour tous*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header part*/
+
+/*nav bar*/
+header nav{
+    background-color: #1F2937;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav .logo{
+    width: 100px;
+    height: auto;
+    margin: 5px;
+    border-radius: 10px ;
+}
+nav a{
+    color: white;
+    font-weight: 900;
+    font-family: monospace;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav .Tlogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+}
