@@ -1,7 +1,6 @@
 /*help style*/
 
 
-
 /*pour tous*/
 *{
     margin: 0;
@@ -100,6 +99,45 @@ nav .Tlogo{
     color: white;
     font-weight: 400;
 }
+
+/*Podcast*/
+
+.podcast .title{
+    font-family: "Arial";
+    font-weight: 800;
+    color: #1F2937;
+    margin: 50px;
+    text-align: center;
+}
+
+.podcast .conteneur{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.podcast .conteneur .item{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.podcast .conteneur .text{
+    font-family: Arial;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+    font-weight: 700;
+    color: #1F2937;
+}
+.podcast .conteneur .img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+
+}
+
 
 /*footer */
 
