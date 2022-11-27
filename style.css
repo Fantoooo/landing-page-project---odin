@@ -198,6 +198,9 @@ nav .Tlogo{
 
 .popup .conteneur .title{
     font-weight: 900;
+    color: white;
+    font-family: Arial;
+    text-decoration: none;
 }
 
 /*footer */
